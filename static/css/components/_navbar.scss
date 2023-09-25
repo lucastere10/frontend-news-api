@@ -1,6 +1,12 @@
 @import '../abstract/variaveis';
 
-.navbar{
+#navbar{
     height: 64px;
     background-color: $cor-terciaria;
+}
+
+.options {
+    border-radius: 12;
+    padding: .2rem;
+    margin: 0 .5rem;
 }

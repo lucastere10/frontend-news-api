@@ -1,8 +1,50 @@
 html, body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.navbar {
+#navbar {
   height: 64px;
   background-color: #1F2C29;
+}
+
+.options {
+  border-radius: 12;
+  padding: 0.2rem;
+  margin: 0 0.5rem;
+}
+
+.news-card {
+  width: 360px;
+  background-color: #D9D9D9;
+  border-radius: 12px;
+}
+.news-card img {
+  width: 100%;
+  max-height: 190px;
+  margin-bottom: 0.5rem;
+}
+.news-card .news-title {
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.news-card .news-content {
+  padding: 0.5rem;
+}
+.news-card .view-button {
+  margin-left: 1rem;
+  position: relative;
+  text-decoration: none;
+  background-color: #1F2C29;
+  color: aliceblue;
+  width: 7rem;
+  text-align: center;
+  padding: 0.3rem 0.2rem;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 1rem;
 }/*# sourceMappingURL=style.css.map */
