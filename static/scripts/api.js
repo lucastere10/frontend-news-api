@@ -1,7 +1,7 @@
 // Your JavaScript code goes here
-const API_KEY = '6655701bc3804d04bb7ed9a05ceb73a2';
+const API_KEY = 'SuaAPIAqui';
 const country = "us";
-const tags = ["general", "tecnology", "health", "politics", "science"];
+const tags = ["general", "technology", "health", "politics", "science", "sports"];
 let requestURL;
 
 
